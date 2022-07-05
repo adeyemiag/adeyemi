@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="witdth=device-with, initial-scale=1.0">
+    <title> Document</title>
+        <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('hxkw7naawex6');
+    </script>
+    <!-- End of Async Drift Code -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> AGBOOLA ADEYEMI OLUWOLE </h1>
+            <button class="btn">
+                Hire me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">ABOUT ME</h1>
+            <img src="Photos_23_06_2022_16_26_51-removebg-preview.png" alt="">
+            <div id="intro">
+                <h2>AGBOOLA ADEYEMI </h2>
+                <P>I am a UI UX designer with experience in freelance jobs for people and small companies, my background are ux reasearch, visual desgin and graphic design. With experiences in counducting user reasearch, prototype both hi-fidelity and low-fidelity. Am a team player who can work with little or no supervision</P>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="1.png" alt="">
+            <img src="9.png" alt="">
+            <img src="8.png" alt="">
+            <img src="image 6.png" alt="">
+            <img src="image.jpeg" alt="">
+            <img src="images (1).jpeg" alt="">
+            <img src="images (3).jpeg" alt="">
+            <img src="images (4).jpeg" alt="">
+            <img src="images 5.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                 <img src="" alt="">
+                <h1 class="headings">Website <br> Design </h1>
+                <p>I build and develop portfolio Website, personal website and blog websites </p>
+                 </div>
+            <div class="row">
+                <div class="box">
+                    <h1 class="headings">UX/UI <br> Design </h1>
+                    <p> I am a ux reasearcher and visual designer</p>
+                </div>     
+        </div>
+    </section> 
+    <iframe src="https://onedrive.live.com/embed?cid=15A9C4FE47A3602D&resid=15A9C4FE47A3602D%21230&authkey=ALa6AppEm05Q2Fg&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+    <section id="contact">
+        <h1 class="heading">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Email: agboolaadeyemi777@gmail.com">
+            <input type="email" class="input"
+            placeholder="Whatspp: 07018455841">
+            <textarea name="msg" id="msg"
+            placeholder="Linkin: Adeyemi Agboola"></textarea>
+        </form>
+    </section>
+</body>
+</html>
